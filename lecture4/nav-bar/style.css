@@ -1,0 +1,17 @@
+.outer {
+    background-color: blueviolet;
+    display: flex;
+}
+
+p {
+    color:white;
+    margin: 25px;
+}
+
+.first {
+    font-size: 25px;
+}
+
+.inner {
+    font-size: 15px;
+}

@@ -1,0 +1,20 @@
+div {
+    background-color:aqua;
+    
+}
+
+span {
+    font-size: 50px;
+}
+
+.outer {
+    background-color:blueviolet;
+    display: flex;
+}
+
+.first {
+    background-color:orange;
+    margin: 25px;
+    padding: 25px;
+}
+
