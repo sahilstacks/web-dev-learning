@@ -1,0 +1,46 @@
+h1{
+    color:brown;
+    background-color:lightblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: green;
+    background-color:burlywood;
+    text-align: left;
+    text-decoration: line-through;
+}
+
+h3 {
+    color: red;
+    background-color: lime;
+    text-align: right;
+    text-decoration: overline;
+}
+
+h4 {
+    color: blue;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+h5 {
+    color: purple;
+    background-color: orange;
+    border: 2px dashed violet;
+}
+
+h6 {
+    color: blueviolet;
+    background-color: bisque;
+    border: 2px dotted green;
+}
+
+button{
+    padding-top: 25px;
+    border: none;
+    color:blueviolet;
+    border: 2px solid black;
+    margin: 50px;
+}
