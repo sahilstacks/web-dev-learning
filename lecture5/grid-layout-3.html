@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout 3</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 50px 250px 50px;
+            gap: 15px;
+        }
+        .header{
+            background-color: purple;
+            text-align: center;
+            color: white;
+            padding: 15px;
+            grid-column: 1 / 4;
+        }
+        .sidebar{
+            background-color: orange;
+            padding: 15px;
+            grid-row: 2;
+        }
+        .main-content{
+            background-color: lightskyblue;
+            padding: 15px;
+        }
+        .right-panel{
+            background-color: lightgreen;
+            padding: 15px;
+        }
+        .footer{
+            color: white;
+            background-color: grey;
+            text-align: center;
+            padding: 15px;
+            grid-column: 1 / 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="sidebar">SIDEBAR</div>
+        <div class="main-content">MAIN CONTENT</div>
+        <div class="right-panel">RIGHT PANEL</div>
+        <footer class="footer">FOOTER</footer>
+    </div>
+</body>
+</html>
